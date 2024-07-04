@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F9FAFB"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:text="Nama Pelanggan"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama pelanggan"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/item"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#BBBBBB"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/item"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#BBBBBB"
+        android:layout_marginBottom="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Kuantitas"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/kuantitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kuantitas"
+        android:background="@drawable/item"
+        android:padding="12dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:textColor="#000000"
+        android:textColorHint="#BBBBBB"
+        android:layout_marginBottom="10dp"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Uang"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:hint="Uang"
+        android:background="@drawable/item"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#BBBBBB"
+        android:layout_marginBottom="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Diskon"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:hint="Diskon"
+        android:background="@drawable/item"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#BBBBBB"
+        android:layout_marginBottom="10dp"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/item"
+        android:textColor="#EDEAEA"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Total Harga"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kembalian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Kembalian"
+        android:textColor="#050505"
+        android:textStyle="bold" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
