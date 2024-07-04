@@ -28,8 +28,8 @@ public class LoginActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent BukaMain = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(BukaMain);
+                Intent intent1 = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent1);
             }
         });
     }
